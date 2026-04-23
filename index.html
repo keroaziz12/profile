@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  <link rel="shortcut icon" href="./img/شعار بحروف K و A مع .png" type="image/x-icon">
+  <link rel="stylesheet" href="./src/output.css">
+</head>
+<body >
+<!-- component -->
+ <nav>
+<div class=" w-full">
+  <div class="antialiased bg-gray-100 dark:bg-gray-900">
+  <div class="w-full text-gray-700 bg-gradient-to-r from-blue-500  to-green-500 dark:text-gray-200 dark:bg-gray-800">
+    <div x-data="{ open: true }" class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
+      <div class="flex flex-row items-center justify-between p-4">
+        <a href="#" class="text-lg font-semibold tracking-widest text-gray-900 uppercase rounded-lg dark:text-white focus:outline-none focus:shadow-outline">keroles</a>
+        <button class="rounded-lg md:hidden focus:outline-none focus:shadow-outline" @click="open = !open">
+          <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
+            <path x-show="!open" fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+            <path x-show="open" fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+          </svg>
+        </button>
+      </div>
+      <nav :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
+        <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark:bg-transparent dark:hover:bg-gray-600 dark:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="#Home">Home</a>
+        <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark:bg-transparent dark:hover:bg-gray-600 dark:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="#Portfolio">Portfolio</a>
+        <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark:bg-transparent dark:hover:bg-gray-600 dark:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="#Services">Services</a>
+        <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark:bg-transparent dark:hover:bg-gray-600 dark:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="#Work">Work</a>
+        <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark:bg-transparent dark:hover:bg-gray-600 dark:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="#Contact">Contact</a>
+        
+</nav>
+    </div>
+  </div>
+</div>
+  </div>
+   </nav>
+   <!-- sec1  home-->
+    <section id="Home"  >
+        <div class="home">
+            <div class="home1">
+                <div class="home2 home_data">
+                    <h1 class="text-5xl mb-5"> Iam Keroles Aziz</h1>
+                    <h2 class="text-4xl ">Iam <span class="bg-linear-to-r from-blue-500 to-green-500 bg-clip-text text-4xl font-extrabold text-transparent"></span></h2>
+                </div>
+            </div>
+        </div> 
+
+    </section>
+    <!-- sec2 about -->
+         <section id="Portfolio"  class="flex flex-wrap overflow-hidden mt-8 mb-8 pt-24" >
+          <div class="w-full md:w-1/2 flex justify-center items-center px-4">
+            <div class="relative w-full max-w-md aspect-square">
+              <img src="./img/WhatsApp Image 2026-04-14 at 8.35.44 PM.jpeg" alt="" class="w-full h-full about_img rounded-full object-cover">
+              <span class="absolute top-0 left-0  w-full h-full border-l-8 border-r-8 border-blue-600 rounded-full animate-span-slow"></span>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 px-4 about-data">
+            <h1 class=" mb-8 mt-8 text-center bg-linear-to-r from-blue-500 to-green-500 bg-clip-text text-7xl font-extrabold text-transparent">About</h1>
+            <p class="text-lg px-5 md:text-xl font-medium text-gray-700 leading-relaxed">I am a front-end developer. I can build a complete website. I can take the UI/UX design and convert it to code and link it to the back-end as well. </p>
+          <ul class=" mt-5 font-medium  space-y-4 text-gray-700 text-base md:text-lg b-x-5 ">
+            <li><strong class="text-4xl bg-linear-to-r from-blue-500 to-green-500 bg-clip-text  font-extrabold text-transparent">Name : </strong > Keroles Aziz</li>
+            <li><strong class="text-4xl bg-linear-to-r from-blue-500 to-green-500 bg-clip-text  font-extrabold text-transparent">Email : </strong>kerilesaziz12@gmail.com</li>
+            <li><strong class="text-4xl bg-linear-to-r from-blue-500 to-green-500 bg-clip-text  font-extrabold text-transparent">phone : </strong>01210663010</li>
+
+          </ul>
+          <a href="./keroles aziz cv frontend fainal.pdf" target="_blank" download class="mx-5 px-5 mt-5 py-3 inline-block bg-linear-to-r from-blue-500 to-green-500 text-white rounded-lg shadow-md font-semibold transition hover:from-yellow-500 hover:to-red-500">Download cv</a>
+          </div>
+
+           </section>
+    <!-- sec3 services -->
+         <section id="Services" > 
+          <h1 class="mb-4 text-center bg-linear-to-r from-blue-500 to-green-500 bg-clip-text text-7xl font-extrabold text-transparent ">Services</h1>
+          <div class=" services-data grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 max-w-7xl mx-auto">
+          <div class="  bg-gradient-to-r from-green-500 to-yellow-500 rounded   py-10  text-center hover:scale-105 transition-all duration-300 ">
+            <img src="./img/ux-design.png" class="w-12 h-12 mx-auto mb-4" alt="">
+            <h3 class="text-xl font-semibold mb-2">FrontEnd Development</h3>
+            <p class="text-gray-700">Solid Front-End Development using the latest technologies like HTML5, CSS3, and modern JavaScript to create robust web</p>
+          </div>
+           <div class="  bg-gradient-to-r from-green-500 to-yellow-500 rounded py-10  text-center hover:scale-105 transition-all duration-300">
+            <img src="./img/inch.png" class="w-12 h-12 mx-auto mb-4" alt="">
+            <h3 class="text-xl font-semibold mb-2">Professional</h3>
+            <p class="text-gray-700">Creating fully responsive and adaptive websites that provide an optimal viewing experience across all devices and screen sizes</p>
+          </div>
+            <div class="  bg-gradient-to-r from-green-500 to-yellow-500 rounded py-10  text-center hover:scale-105 transition-all duration-300">
+            <img src="./img/atom.png" class="w-12 h-12 mx-auto mb-4" alt="">
+            <h3 class="text-xl font-semibold mb-2">React&Single page Applications</h3>
+            <p class="text-gray-700">Building dynamic, high-performance Single Page Applications (SPAs) leveraging the power of React and Redux Toolkit</p>
+          </div>
+            <div class="  bg-gradient-to-r from-green-500 to-yellow-500 rounded py-10  text-center hover:scale-105 transition-all duration-300">
+            <img src="./img/icons8-tailwind-css-100.png" class="w-12 h-12 mx-auto mb-4" alt="">
+            <h3 class="text-xl font-semibold mb-2">Tailwind" (Modern UI/UX with Tailwind CSS)</h3>
+            <p class="text-gray-700">Styling stunning and pixel-perfect user interfaces with utility-first frameworks like Tailwind CSS for a unique look and feel</p>
+          </div>
+          </div>
+          
+         </section>
+    <!-- sec4 work -->
+         <section id="Work" class="work-data" >
+                    <h1 class="mb-4 text-center bg-linear-to-r from-blue-500 to-green-500 bg-clip-text text-7xl font-extrabold text-transparent ">  My Work</h1>
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-7xl mx-auto">
+           <div class="  bg-gradient-to-r from-green-500 to-yellow-500 rounded py-10  text-center hover:scale-105 transition-all duration-300">
+            <img src="./img/تصميم بدون عنوان.png" class="w-12 h-12 mx-auto mb-4" alt="">
+            <h3 class="text-xl font-semibold mb-2">Cards</h3>
+            <p class="text-gray-700">A Warehouse/Inventory Management system that allows users to add products, set prices, and link images, providing an organized interface for tracking and managing stock</p>
+            <a href="https://keroaziz12.github.io/cards/" target="_blank" class="bg-red-600 mt-5 px-4 py-5 inline-block text-white rounded transition-colors duration-300">View project</a>
+
+          </div>
+            <div class="  bg-gradient-to-r from-green-500 to-yellow-500 rounded py-10  text-center hover:scale-105 transition-all duration-300">
+            <img src="./img/bg.jpg" class="w-12 h-12 mx-auto mb-4" alt="">
+            <h3 class="text-xl font-semibold mb-2">Samsung</h3>
+            <p class="text-gray-700">A modern marketing landing page for Samsung products, focused on sleek UI/UX and full responsiveness across all devices</p>
+                        <a href="https://keroaziz12.github.io/samsung/" target="_blank" class= " mt-5 bg-red-600 px-4 py-5 inline-block text-white rounded transition-colors duration-300">View project</a>
+
+          </div>
+            <div class="  bg-gradient-to-r from-green-500 to-yellow-500 rounded py-10  text-center hover:scale-105 transition-all duration-300">
+            <img src="./img/vite.svg" class="w-12 h-12 mx-auto mb-4" alt="">
+            <h3 class="text-xl font-semibold mb-2">Trends</h3>
+            <p class="text-gray-700">A responsive web  built with React that fetches and displays real-time trending movies and TV shows using dynamic APIs</p>
+                        <a href="https://trends-tawny-pi.vercel.app/" target="_blank" class=" mt-5 bg-red-600 px-4 py-5 inline-block text-white rounded transition-colors duration-300">View project</a>
+
+          </div>
+          </div> </section>
+    <!-- sec5 contact -->
+         <section id="Contact" class="flex flex-wrap" >
+          <div class="w-full md:w-1/2 p-4">
+            <img src="./img/contact.png" class=" contact_img w-3/4 rounded-lg px-10 mt-45" alt="">
+          </div>
+          <div class="w-full md:w-1/2 p-4 contact-data">
+            <!-- component -->
+             <h1 class="mb-8 mt-8 text-center bg-linear-to-r from-blue-500 to-green-500 bg-clip-text text-7xl font-extrabold text-transparent">Contact</h1>
+<div class="flex items-center justify-center p-12">
+  <!-- Author: FormBold Team -->
+  <div class="mx-auto w-full max-w-137.5">
+    <form id="content-form">
+      <div class="mb-5">
+        <label
+          for="name"
+          class="mb-3 block text-2xl font-medium text-[#9b0dd3]"
+        >
+          Full Name
+        </label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Full Name"
+          class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+        />
+      </div>
+      <div class="mb-5">
+        <label
+          for="email"
+          class="mb-3 block text-2xl font-medium text-[#9b0dd3]"
+        >
+          Email Address
+        </label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="example@domain.com"
+          class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+        />
+      </div>
+      <div class="mb-5">
+        <label
+          for="subject"
+          class="mb-3 block text-2xl font-medium text-[#9b0dd3]"
+        >
+          Subject
+        </label>
+        <input
+          type="text"
+          name="subject"
+          id="subject"
+          placeholder="Enter your subject"
+          class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+        />
+      </div>
+      <div class="mb-5">
+        <label
+          for="message"
+          class="mb-3 block text-2xl font-medium text-[#9b0dd3]"
+        >
+          Message
+        </label>
+        <textarea
+          rows="4"
+          name="message"
+          id="message"
+          placeholder="Type your message"
+          class="w-full resize-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+        ></textarea>
+      </div>
+      <div>
+        <button
+          class="bg-linear-to-r from-blue-500 to-green-500 text-white rounded-lghover:shadow-form rounded-md py-3 px-8 text-base font-semibold  outline-none"
+        >
+          Submit
+        </button>
+      </div>
+    </form>
+  </div>
+</div></div>
+
+         </section> 
+         <!-- footer -->
+<footer class="footer footer-center  w-full p-4 bg-gradient-to-r from-blue-500 to-green-500 text-white-800">
+      <div class="text-center">
+        <p>
+          Copyright © 2026 -
+          <a class="font-semibold" href="mailto:m.sohanemon@gmail.com"
+            >Keroles Aziz</a
+          >
+        </p>
+      </div>
+    </footer>
+    <a href="#" class="fixed right-4 -bottom-1/2 bg-violet-800 inline-block shadow-sm px-3 py-2 md:px-4 md:py-3 rounded-md text-white text-xl z-50 duration-300 hover:translate-y-1 cursor-pointer" id="scroll-up">
+      ↑
+    </a>
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+<script src="./js/style.js"></script>
+
+</body>
+</html>

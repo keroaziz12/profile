@@ -1,0 +1,76 @@
+@import "tailwindcss";
+.home{
+    background-image: url(../img/شاب\ يرتدي\ سماعات\ صفر.png);
+    background-position: center center;
+    background-size: cover;
+height: 100vh;
+
+}
+.home1{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+.home2 h2 span::after{
+    content : "|";
+    animation-name: flextext;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes flextext {
+ 0%{content: "F|";}
+    3%{content: "Fr|";}
+    6%{content: "Fro|";}
+    9%{content: "Fron|";}
+    12%{content: "Front|";}
+    15%{content: "Fronte|";}
+    18%{content: "Fronten|";}
+    21%{content: "Frontend|";}
+    24%{content: "Frontend D|";}
+    27%{content: "Frontend De|";}
+    30%{content: "Frontend Dev|";}
+    33%{content: "Frontend Deve|";}
+    36%{content: "Frontend Devel|";}
+    39%{content: "Frontend Develo|";}
+    42%{content: "Frontend Develop|";}
+    45%{content: "Frontend Develope|";}
+    48%{content: "Frontend Developer|";}
+    51%{content: "Frontend Develope|";}
+    54%{content: "Frontend Develop|";}
+    57%{content: "Frontend Develo|";}
+    60%{content: "Frontend Devel|";}
+    63%{content: "Frontend Deve|";}
+    66%{content: "Frontend Dev|";}
+    69%{content: "Frontend De|";}
+    72%{content: "Frontend D|";}
+    75%{content: "Frontend|";}
+    78%{content: "Fronten|";}
+    81%{content: "Fronte|";}
+    84%{content: "Front|";}
+    87%{content: "Fron|";}
+    90%{content: "Fro|";}
+    93%{content: "Fr|";}
+    96%{content: "F|";}
+    100%{content: "|";}
+}
+
+
+.animate-span-slow{
+    animation: span-slow 5s linear infinite;
+}
+@keyframes span-slow{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+/* Add more spacing to the list */
+
