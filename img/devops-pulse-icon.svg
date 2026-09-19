@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="96" fill="#0a0e1a"/>
+
+  <!-- Server body -->
+  <rect x="136" y="120" width="240" height="56" rx="10" fill="#0d1120" stroke="#1e3a5a" stroke-width="3"/>
+  <rect x="156" y="138" width="80" height="20" rx="4" fill="#1e2a3a"/>
+  <circle cx="330" cy="148" r="8" fill="#38bdf8" opacity="0.9"/>
+  <circle cx="356" cy="148" r="8" fill="#1e3a5a"/>
+
+  <rect x="136" y="192" width="240" height="56" rx="10" fill="#0d1120" stroke="#1e3a5a" stroke-width="3"/>
+  <rect x="156" y="210" width="80" height="20" rx="4" fill="#1e2a3a"/>
+  <circle cx="330" cy="220" r="8" fill="#38bdf8" opacity="0.6"/>
+  <circle cx="356" cy="220" r="8" fill="#38bdf8" opacity="0.9"/>
+
+  <rect x="136" y="264" width="240" height="56" rx="10" fill="#0d1120" stroke="#1e3a5a" stroke-width="3"/>
+  <rect x="156" y="282" width="80" height="20" rx="4" fill="#1e2a3a"/>
+  <circle cx="330" cy="292" r="8" fill="#1e3a5a"/>
+  <circle cx="356" cy="292" r="8" fill="#38bdf8" opacity="0.9"/>
+
+  <!-- Pulse wave -->
+  <polyline
+    points="80,390 128,390 158,340 196,440 234,360 264,390 296,390 326,350 356,390 432,390"
+    fill="none"
+    stroke="#38bdf8"
+    stroke-width="10"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="0.95"
+  />
+</svg>

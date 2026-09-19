@@ -1,0 +1,81 @@
+@import "tailwindcss";
+.home{
+    background-image: url(../img/back.png);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.home1{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+.home2 h2 span::after{
+    content : "|";
+    animation-name: flextext;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes flextext {
+    2%{content: "F|";}
+    5%{content: "Fu|";}
+    7%{content: "Ful|";}
+    10%{content: "Full|";}
+    12%{content: "Full |";}
+    14%{content: "Full S|";}
+    17%{content: "Full St|";}
+    19%{content: "Full Sta|";}
+    22%{content: "Full Stac|";}
+    24%{content: "Full Stack|";}
+    26%{content: "Full Stack |";}
+    29%{content: "Full Stack D|";}
+    31%{content: "Full Stack De|";}
+    34%{content: "Full Stack Dev|";}
+    36%{content: "Full Stack Deve|";}
+    38%{content: "Full Stack Devel|";}
+    41%{content: "Full Stack Develo|";}
+    43%{content: "Full Stack Develop|";}
+    46%{content: "Full Stack Develope|";}
+    48%{content: "Full Stack Developer|";}
+    52%{content: "Full Stack Develope|";}
+    55%{content: "Full Stack Develop|";}
+    57%{content: "Full Stack Develo|";}
+    60%{content: "Full Stack Devel|";}
+    62%{content: "Full Stack Deve|";}
+    65%{content: "Full Stack Dev|";}
+    67%{content: "Full Stack De|";}
+    70%{content: "Full Stack D|";}
+    72%{content: "Full Stack |";}
+    75%{content: "Full Stack|";}
+    77%{content: "Full Stac|";}
+    80%{content: "Full Sta|";}
+    82%{content: "Full St|";}
+    85%{content: "Full S|";}
+    87%{content: "Full |";}
+    90%{content: "Full|";}
+    92%{content: "Ful|";}
+    95%{content: "Fu|";}
+    97%{content: "F|";}
+    100%{content: "|";}
+}
+
+
+.animate-span-slow{
+    animation: span-slow 5s linear infinite;
+}
+@keyframes span-slow{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+/* Add more spacing to the list */
